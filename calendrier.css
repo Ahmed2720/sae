@@ -48,3 +48,62 @@ nav ul li a:hover {
     background-color: #cfa302;
     color: #0e172c;
 }
+
+
+main {
+    padding: 20px;
+    max-width: 900px; 
+    margin: 0 auto;
+}
+
+main h1 {
+    color: #edbb00;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 36px;
+}
+
+
+
+.calendrier {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px; 
+}
+
+
+.match {
+    background-color: #162445; 
+    border: 1px solid #6a0522; 
+    border-radius: 8px; 
+    padding: 20px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.competion {
+    font-size: 14px;
+    font-weight: bold;
+    color: #cfa302; 
+    border-bottom: 1px solid #6a0522;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
+.equipes h3 {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+
+.dates {
+    text-align: right;
+    color: #aaa;
+    font-size: 15px;
+}
+
+.dates p {
+    margin: 5px 0;
+}
