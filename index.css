@@ -47,3 +47,80 @@ nav ul li a:hover {
     color: #0e172c;
 }
 
+
+
+.contenu {
+    display: grid;
+
+    grid-template-columns: 1fr 350px;
+    min-height: 100vh; 
+    width: 100%;
+    margin: 0;
+}
+
+
+.gauche {
+    padding: 40px;
+}
+
+.gauche img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #6a0522;
+    margin-top: 20px;
+}
+
+.gauche h1 {
+    color: #edbb00;
+    text-transform: uppercase;
+}
+
+
+.droite {
+  
+    border-left: 4px solid #6a0522; 
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px; 
+}
+
+
+.alaune, .palmares, .stats {
+    background-color: #162445; 
+    border: 1px solid #6a0522; 
+    border-radius: 10px;
+    padding: 20px;
+}
+
+
+.alaune img {
+    width: 100%; 
+    border-radius: 5px;
+    margin: 10px 0; 
+
+}
+
+.droite h2 {
+    color: #edbb00;
+    margin-top: 0;
+    border-bottom: 1px solid #6a0522;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+
+.alaune h3 {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+}
+
+/
+.palmares li, .stats li {
+    list-style: none;
+    color: #e0e0e0;
+    padding: 10px 0;
+    border-bottom: 1px solid #0e172c;
+}
+
