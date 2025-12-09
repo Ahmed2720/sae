@@ -88,3 +88,16 @@ main p {
     line-height: 1.6; 
     color: #f0f0f0; 
 }
+
+@media (max-width: 800px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+    .qui, .pourquoi, .contact {
+        width: auto;      
+        margin: 10px;     
+        padding: 0;       
+    }
+}

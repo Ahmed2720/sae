@@ -64,13 +64,13 @@ nav ul li a:hover {
 }
 
 .gauche img {
-    width: auto;        /* La largeur s'adapte toute seule */
-    max-width: 100%;    /* Elle ne dépasse pas la colonne */
-    max-height: 75vh;   /* Elle ne prend pas plus de 75% de la hauteur de l'écran */
+    width: auto;        
+    max-width: 100%;    
+    max-height: 75vh;  
     border-radius: 10px;
     border: 1px solid #6a0522;
-    display: block;     /* Nécessaire pour le centrage */
-    margin: 0 auto;     /* Centre l'image au milieu */
+    display: block;     
+    margin: 0 auto;     
 }
 
 .droite {
@@ -133,4 +133,30 @@ nav ul li a:hover {
     font-weight: bold;
     margin-top: 15px;
     text-transform: uppercase;
+}
+
+@media (max-width: 800px) {
+    
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 15px;
+    }
+    .contenu {
+        display: flex;
+        flex-direction: column;
+    }
+    .gauche, .droite {
+        width: auto;   
+        padding: 10px; 
+        margin: 0;
+    }
+    .gauche img {
+        width: 100%;   
+        height: auto;  
+        border: none;  
+    }
+    .droite {
+        margin-top: 20px;
+    }
 }
