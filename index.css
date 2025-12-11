@@ -160,3 +160,13 @@ nav ul li a:hover {
         margin-top: 20px;
     }
 }
+
+
+body {
+    animation: apparition 5s;
+}
+
+@keyframes apparition {
+    from { opacity: 0; } 
+    to   { opacity: 1; } 
+}
